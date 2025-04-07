@@ -35,6 +35,6 @@ def extract_unique_frames(video_path, output_folder, similarity_threshold=0.90):
     cap.release()
     print(f"Processed {frame_count} frames, saved {saved_count} unique frames.")
 
-video_path = ".\\videos\\Video_1.MOV"  # Sostituire con il percorso del video
-output_folder = "frames_output"  # Sostituire con la cartella di output
+video_path = ".\\videos\\Video"  # path to video
+output_folder = "frames_output"  # path to output folder
 extract_unique_frames(video_path, output_folder)
